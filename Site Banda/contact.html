@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contact</title>
+		<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"/>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	<span id='topo'></span>
+		<header>
+			<div class="cabecario">
+				<h1><img src="guns-logo.jpg" class="imgLogo"></h1>
+				<nav>
+					<ul>	
+						<li><a href="index.html">Home</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="aboutus.html">About us</a></li>
+					</ul>
+				</nav>
+			</div>	
+		</header>
+
+	<main class="principal">
+
+	<div class="center">
+		<form>
+
+	
+			<label for="name" style="margin: 10px 10px">Name</label>
+			<input type="text" id="name" class="input-padrao" required>
+
+			<label for="email" style="margin: 10px 10px">Email</label>
+			<input type="email" id="email" class="input-padrao" required placeholder="youremail@whatever.com">
+
+			<label for="telefone" style="margin: 10px 10px">Phone</label>
+			<input type="tel" id="phone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+			<label for="mensagem" style="margin: 10px 10px">Message</label>
+			<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+
+
+		<fieldset class="contactmethods">
+
+			<legend>How do you like to contact us?</legend>
+			<label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email">Email</label>
+
+			<label for="radio-telefone"><input type="radio" name="contact" value="telefone" id="radio-telefone">Phone</label>
+					
+			<label for="radio-whatsapp"><input type="radio" name="contact" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+
+		</fieldset>
+
+			<label class="checkbox">
+			<input type="checkbox" checked>
+			Would you like to get our news by email?	
+			</label>
+			
+			<input type="submit" value="Send" class="send">
+
+		</form>
+	</div>
+
+	<a class="linktop" href='#topo' style="color:#F2F2F2">Back to Top</a>
+	</main>	
+
+	<footer class="rodape">
+		<img src="guns.jpg" class="imgFooter">
+		<p class="copyright">&copy; Copyright Guns n' Roses - 2021</p>
+	</footer>
+	</body>
+</html>		

@@ -1,0 +1,36 @@
+
+header {
+	background: #1e272e;
+	padding: 20px 0;
+}
+
+.cabecario {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.imgLogo {
+	position: relative;
+	width: 18%;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FEFEFE;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none; 
+}
